@@ -1,0 +1,197 @@
+* {
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: #595959;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+header {
+    background-color: #e6e6e6;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.nav {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 95%;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.home {
+    margin-bottom: 8px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    font-weight: 900;
+    color: black;
+}
+
+.portfolionav {
+    margin-bottom: 8px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    font-weight: 900;
+    color: black;
+
+}
+
+.contact {
+    margin-bottom: 8px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    font-weight: 900;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.profilepic {
+    width: 60%;
+    padding-bottom: 13px;
+}
+
+.introduction {
+    font-size: 22px;
+    padding-top: 10px;
+    width: 90%;
+    line-height: 30px;
+    margin: 0 auto;
+
+}
+
+.portfolio-title {
+    font-weight: 900;
+    color: black;
+    font-size: 23px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.portfoliopic {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+caption {
+    width: 75%;
+    font-size: 70px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 900;
+    color: black;
+}
+
+.caption {
+    font-size: 21px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.apps {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+hr {
+    width: 80%;
+}
+
+.closing {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 1.5em;
+    margin-bottom: 0;
+    background-color: #e6e6e6;
+    font-size: 19px;
+}
+
+.studentname {
+    float: left;
+    color: black;
+    padding-left: 25px;
+    font-weight: 900;
+}
+
+.backtotop {
+    float: right;
+    padding-top: 18px;
+    padding-right: 25px;
+    font-weight: 900;
+}
+
+.contact-closing {
+    font-weight: 900;
+    color: black;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
