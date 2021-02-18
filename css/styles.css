@@ -287,11 +287,6 @@ a:visited {
         display: block;
     }
 
-    .contact-closing {
-        padding-bottom: 20px;
-        padding-top: 15px;
-    }
-
     .footerhome {
         padding-left: 30px;
     }
@@ -307,3 +302,61 @@ a:visited {
   }
 
   @media (min-width: 1024px) {
+    
+    .heading {
+        float: left;
+        padding-left: 50px;
+    }
+
+    .introduction {
+        padding-left: 50px;
+        font-size: 28px;
+        line-height: 40px;
+        padding-top: 30px;
+    }
+
+    .profilepic {
+        width: 40%;
+        padding-right: 50px;
+        padding-bottom: 40px;
+    }
+
+    .nav {
+        text-align: right;
+        padding-top: 10px;
+    }
+
+    header {
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .apps {
+        width: 32%;
+    }
+
+    .closing {
+        width: 45%;
+    }
+
+    .studentname {
+        padding-left: 75px;
+    }
+
+    .footercontact {
+        padding-right: 75px;
+    }
+
+    .home {
+        font-size: 22px;
+    }
+
+    .contact {
+        font-size: 22px;
+    }
+
+    .portfolionav {
+        font-size: 22px;
+    }
+  }   
+
