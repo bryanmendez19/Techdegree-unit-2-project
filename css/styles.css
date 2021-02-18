@@ -88,7 +88,7 @@ ul {
 }
 
 .introduction {
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 10px;
     width: 90%;
     line-height: 30px;
@@ -111,7 +111,7 @@ ul {
 
 caption {
     width: 75%;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 body {
@@ -119,7 +119,7 @@ body {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 900;
     color: black;
 }
@@ -131,7 +131,6 @@ h3 {
 }
 
 .portfolio {
-    text-align: center;
     margin-bottom: 55px;
 }
 
@@ -157,17 +156,21 @@ footer {
     font-size: 19px;
 }
 
+.footernav {
+    display: none;
+}
+
 .studentname {
     float: left;
     color: black;
-    padding-left: 25px;
+    padding-left: 15px;
     font-weight: 900;
 }
 
 .backtotop {
     float: right;
     padding-top: 18px;
-    padding-right: 25px;
+    padding-right: 15px;
     font-weight: 900;
 }
 
@@ -194,4 +197,113 @@ a:visited {
     display: table;
   }
 
-  
+  @media (min-width: 768px) {
+
+    header {
+        padding-bottom: 40px;
+    } 
+
+    .home {
+        margin-bottom: 20px;
+        display: inline-block;
+        padding: 15px;
+        font-weight: 900;
+        color: black;
+        background-color: #e6e6e6;
+        font-size: 18px;
+    }
+    
+    .portfolionav {
+        margin-bottom: 20px;
+        display:inline-block;
+        padding: 15px;
+        font-weight: 900;
+        color: black;
+        background-color: #e6e6e6;
+        font-size: 18px;
+
+
+    }
+    
+    .contact {
+        margin-bottom: 20px;
+        display: inline-block;
+        padding: 15px;
+        font-weight: 900;
+        color: black;
+        background-color: #e6e6e6;
+        font-size: 18px;
+
+
+    }
+
+    .heading {
+        padding-bottom: 20px;
+    }
+
+    .introduction {
+        float: left;
+        width: 50%;
+        padding-left: 20px;
+        text-align: left;
+        
+    }
+
+    .profilepic {
+        float: right;
+        width: 43%;
+        padding-right: 20px;
+    }
+
+    .apps {
+        float: left;
+        width: 50%;
+    }
+
+    .portfolio {
+        width: 100%
+    }
+
+/* FOOTER */
+
+    .closing {
+        margin-bottom: 50px;
+    }
+
+    .emailfooter {
+        margin-bottom: 60px;
+    }
+
+    .backtotop {
+        display: none;
+    }
+    
+    .footernav {
+        float: right;
+        padding-top: 19px;
+        padding-right: 25px;
+        color: black;
+        font-weight: 900;
+        display: block;
+    }
+
+    .contact-closing {
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .footerhome {
+        padding-left: 30px;
+    }
+
+    .footerportfolio {
+        padding-left: 30px;
+    }
+
+    .footercontact {
+        padding-left: 30px;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
